@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: dark;
+}
+
+body {
+  @apply min-h-screen bg-background text-foreground antialiased;
+  font-family: Arial, Helvetica, sans-serif;
+  background:
+    radial-gradient(circle at 18% 12%, rgba(56, 189, 248, 0.18), transparent 26rem),
+    radial-gradient(circle at 82% 8%, rgba(16, 185, 129, 0.16), transparent 24rem),
+    linear-gradient(135deg, #05070d 0%, #08111f 52%, #03100f 100%);
+}
+
+* {
+  @apply border-border;
+}
+
+a {
+  @apply transition-colors;
+}
+
+::selection {
+  background: rgba(56, 189, 248, 0.35);
+}
+
+.glass-panel {
+  @apply border border-white/10 bg-white/[0.055] shadow-card backdrop-blur-2xl;
+}
