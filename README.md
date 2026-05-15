@@ -1,6 +1,7 @@
 # CircuitSense AI
 
 CircuitSense AI is a Next.js 15 App Router application that acts like an intelligent electronics lab assistant. It accepts a circuit image, a natural-language circuit description, or both, then returns structured analysis, debugging guidance, equations, LTspice netlists, and conceptual quiz questions.
+Deployed Link: https://circuitsense.netlify.app/
 
 ## Tech Stack
 
